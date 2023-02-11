@@ -1,4 +1,4 @@
-# Problem: To Do List (ES6 Modules)
+		# Problem: To Do List (ES6 Modules)
 
 In this exercise, you will practice working with ES6 modules, as well as other ES6+ syntax features. In particular, you will implement a simple interactive to-do-list app:
 
