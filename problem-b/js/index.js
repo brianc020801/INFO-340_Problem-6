@@ -142,11 +142,11 @@ allInput.forEach(function(input){
   input.addEventListener('input', function(){
     let button = document.querySelector('button');
     if(form.classList.contains('was-validated')){
-      if(form.checkValidity){
+      if(form.checkValidity()){
         button.disabled = false;
+      }else{
+        button.disabled = true;
       }
-      button.disabled = true;
-    }
   })
 })
 
