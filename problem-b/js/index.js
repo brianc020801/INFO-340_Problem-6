@@ -147,6 +147,7 @@ allInput.forEach(function(input){
       }else{
         button.disabled = true;
       }
+    }
   })
 })
 
